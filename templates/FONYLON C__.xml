@@ -1,0 +1,12 @@
+<templateSet group="FONYLON C++">
+  <template name="#head" value="#include &lt;iostream&gt;&#10;using namespace std;&#10;int main(){&#10;    $END$&#10;}" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="cpp" value="true" />
+    </context>
+  </template>
+  <template name="sout" value="cout&lt;&lt; $END$ &lt;&lt; endl;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="cpp" value="true" />
+    </context>
+  </template>
+</templateSet>
