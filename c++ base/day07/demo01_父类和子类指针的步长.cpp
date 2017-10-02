@@ -21,7 +21,7 @@ public:
     }
 };
 
-int main() {
+int main0701() {
 //    cout << sizeof(Parent) << endl;
 //    cout << sizeof(Child) << endl;
 
