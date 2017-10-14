@@ -37,27 +37,33 @@ public:
 template<typename T>
 int Template<T>::count = 0;
 
-bool Template::operator<(const Template &rhs) const {
+template<typename T>
+bool Template<T>::operator<(const Template &rhs) const {
     return t < rhs.t;
 }
 
-bool Template::operator==(const Template &rhs) const {
+template<typename T>
+bool Template<T>::operator==(const Template &rhs) const {
     return t == rhs.t;
 }
 
-bool Template::operator!=(const Template &rhs) const {
+template<typename T>
+bool Template<T>::operator!=(const Template &rhs) const {
     return !(rhs == *this);
 }
 
-bool Template::operator>(const Template &rhs) const {
+template<typename T>
+bool Template<T>::operator>(const Template &rhs) const {
     return rhs < *this;
 }
 
-bool Template::operator<=(const Template &rhs) const {
+template<typename T>
+bool Template<T>::operator<=(const Template &rhs) const {
     return !(rhs < *this);
 }
 
-bool Template::operator>=(const Template &rhs) const {
+template<typename T>
+bool Template<T>::operator>=(const Template &rhs) const {
     return !(*this < rhs);
 }
 
