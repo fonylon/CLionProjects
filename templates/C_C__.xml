@@ -1,10 +1,10 @@
 <templateSet group="C/C++">
-  <template name="#main" value="#include &lt;iostream&gt;&#10;&#10;using namespace std;&#10;&#10;int main() {&#10;    $END$&#10;    return 0;&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="#main" value="#include &lt;iostream&gt;&#10;&#10;using namespace std;&#10;&#10;int main() {&#10;    $END$&#10;    return 0;&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="cpp" value="true" />
     </context>
   </template>
-  <template name="#cmain" value="#include &lt;stdio.h&gt;&#10;int main(void){&#10;    $END$&#10;    return 0;&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="#cmain" value="#include &lt;stdio.h&gt;&#10;int main(void){&#10;    $END$&#10;    return 0;&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="c" value="true" />
     </context>
